@@ -95,8 +95,7 @@ sh run_backend.sh
     1. Test *get-product-by-id*
     2. Test *get-recommendations*
     3. Test *get-enhanced-recommendations*
-3. In a new terminal session, start frontend UI by executing **run_frontend.sh* shell script under the project root and
-   directory and wait for the server startup to be completed (*e.g. Running on http://127.0.0.1:5000*)
+3. In a new terminal session, start frontend UI by executing *run_frontend.sh* shell script under the project root directory and wait for the server startup to be completed (*e.g. Running on http://127.0.0.1:5000*)
 
 ```bash
 cd /path/to/project_root
