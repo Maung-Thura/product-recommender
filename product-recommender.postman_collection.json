@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "681392f1-af4e-4475-80eb-8129b32a720a",
+		"name": "product-recommender",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42516779"
+	},
+	"item": [
+		{
+			"name": "get-product-by-id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get-recommendations",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get-enhanced-recommendations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/rag-query?q=What are the benefits of Relaxation Tea?",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"rag-query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "What are the benefits of Relaxation Tea?"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
